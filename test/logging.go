@@ -18,6 +18,6 @@
 
 package test
 
-import "google.golang.org/grpc/grpclog"
+import "github.com/qiaohao9/grpc/grpclog"
 
 var logger = grpclog.Component("testing")

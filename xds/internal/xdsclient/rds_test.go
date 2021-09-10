@@ -26,11 +26,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/internal/xds/env"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/internal/testutils"
+	"github.com/qiaohao9/grpc/internal/xds/env"
+	"github.com/qiaohao9/grpc/xds/internal/httpfilter"
+	"github.com/qiaohao9/grpc/xds/internal/version"
 	"google.golang.org/protobuf/types/known/durationpb"
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"

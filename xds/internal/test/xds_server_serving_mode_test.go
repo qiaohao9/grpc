@@ -29,13 +29,13 @@ import (
 	"time"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	testpb "google.golang.org/grpc/test/grpc_testing"
-	"google.golang.org/grpc/xds"
-	xdstestutils "google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/credentials/insecure"
+	xdscreds "github.com/qiaohao9/grpc/credentials/xds"
+	testpb "github.com/qiaohao9/grpc/test/grpc_testing"
+	"github.com/qiaohao9/grpc/xds"
+	xdstestutils "github.com/qiaohao9/grpc/xds/internal/testutils"
+	"github.com/qiaohao9/grpc/xds/internal/testutils/e2e"
 )
 
 // TestServerSideXDS_ServingModeChanges tests the serving mode functionality in

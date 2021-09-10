@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/internal/pretty"
+	"github.com/qiaohao9/grpc/internal/pretty"
 )
 
 type watchInfoState int

@@ -24,12 +24,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/xds/internal/version"
-	"google.golang.org/grpc/xds/internal/xdsclient"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/internal/grpclog"
+	"github.com/qiaohao9/grpc/internal/pretty"
+	"github.com/qiaohao9/grpc/xds/internal/version"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient"
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	v2corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"

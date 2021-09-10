@@ -21,8 +21,8 @@ package admin_test
 import (
 	"testing"
 
-	"google.golang.org/grpc/admin/test"
-	"google.golang.org/grpc/codes"
+	"github.com/qiaohao9/grpc/admin/test"
+	"github.com/qiaohao9/grpc/codes"
 )
 
 func TestRegisterNoCSDS(t *testing.T) {

@@ -33,17 +33,17 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/google/uuid"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/internal/xds"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
-	xtestutils "google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/credentials/insecure"
+	"github.com/qiaohao9/grpc/internal/grpcrand"
+	"github.com/qiaohao9/grpc/internal/grpctest"
+	"github.com/qiaohao9/grpc/internal/testutils"
+	"github.com/qiaohao9/grpc/internal/xds"
+	"github.com/qiaohao9/grpc/metadata"
+	"github.com/qiaohao9/grpc/status"
+	xtestutils "github.com/qiaohao9/grpc/xds/internal/testutils"
+	"github.com/qiaohao9/grpc/xds/internal/testutils/e2e"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
@@ -51,11 +51,11 @@ import (
 	fpb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/fault/v3"
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	tpb "github.com/envoyproxy/go-control-plane/envoy/type/v3"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	testpb "github.com/qiaohao9/grpc/test/grpc_testing"
 
-	_ "google.golang.org/grpc/xds/internal/balancer"     // Register the balancers.
-	_ "google.golang.org/grpc/xds/internal/resolver"     // Register the xds_resolver.
-	_ "google.golang.org/grpc/xds/internal/xdsclient/v3" // Register the v3 xDS API client.
+	_ "github.com/qiaohao9/grpc/xds/internal/balancer"     // Register the balancers.
+	_ "github.com/qiaohao9/grpc/xds/internal/resolver"     // Register the xds_resolver.
+	_ "github.com/qiaohao9/grpc/xds/internal/xdsclient/v3" // Register the v3 xDS API client.
 )
 
 const defaultTestTimeout = 10 * time.Second

@@ -24,8 +24,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/xds/internal/httpfilter"
+	iresolver "github.com/qiaohao9/grpc/internal/resolver"
+	"github.com/qiaohao9/grpc/xds/internal/httpfilter"
 	"google.golang.org/protobuf/types/known/anypb"
 
 	pb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/router/v3"

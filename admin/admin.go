@@ -29,9 +29,9 @@
 package admin
 
 import (
-	"google.golang.org/grpc"
-	channelzservice "google.golang.org/grpc/channelz/service"
-	internaladmin "google.golang.org/grpc/internal/admin"
+	"github.com/qiaohao9/grpc"
+	channelzservice "github.com/qiaohao9/grpc/channelz/service"
+	internaladmin "github.com/qiaohao9/grpc/internal/admin"
 )
 
 func init() {

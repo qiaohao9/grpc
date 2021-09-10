@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/qiaohao9/grpc/internal/testutils"
 )
 
 type ldsUpdateErr struct {

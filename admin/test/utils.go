@@ -29,12 +29,12 @@ import (
 	v3statusgrpc "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	v3statuspb "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	"github.com/google/uuid"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/admin"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/xds"
-	"google.golang.org/grpc/status"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/admin"
+	channelzpb "github.com/qiaohao9/grpc/channelz/grpc_channelz_v1"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/internal/xds"
+	"github.com/qiaohao9/grpc/status"
 )
 
 const (

@@ -23,9 +23,9 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	durpb "github.com/golang/protobuf/ptypes/duration"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/testutils"
+	channelzpb "github.com/qiaohao9/grpc/channelz/grpc_channelz_v1"
+	"github.com/qiaohao9/grpc/internal/channelz"
+	"github.com/qiaohao9/grpc/internal/testutils"
 )
 
 func convertToPtypesDuration(sec int64, usec int64) *durpb.Duration {

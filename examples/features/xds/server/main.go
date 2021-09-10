@@ -30,13 +30,13 @@ import (
 	"os"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/health"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/xds"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/credentials/insecure"
+	xdscreds "github.com/qiaohao9/grpc/credentials/xds"
+	pb "github.com/qiaohao9/grpc/examples/helloworld/helloworld"
+	"github.com/qiaohao9/grpc/health"
+	healthpb "github.com/qiaohao9/grpc/health/grpc_health_v1"
+	"github.com/qiaohao9/grpc/xds"
 )
 
 var (

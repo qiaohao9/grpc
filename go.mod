@@ -1,4 +1,4 @@
-module google.golang.org/grpc
+module github.com/qiaohao9/grpc
 
 go 1.14
 

@@ -18,7 +18,7 @@
 
 package xdsclient
 
-import "google.golang.org/grpc/internal/pretty"
+import "github.com/qiaohao9/grpc/internal/pretty"
 
 type watcherInfoWithUpdate struct {
 	wi     *watchInfo

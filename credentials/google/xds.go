@@ -22,8 +22,8 @@ import (
 	"context"
 	"net"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal"
+	"github.com/qiaohao9/grpc/credentials"
+	"github.com/qiaohao9/grpc/internal"
 )
 
 const cfeClusterName = "google-cfe"

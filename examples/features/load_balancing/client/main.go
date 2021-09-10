@@ -25,9 +25,9 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
-	ecpb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/resolver"
+	"github.com/qiaohao9/grpc"
+	ecpb "github.com/qiaohao9/grpc/examples/features/proto/echo"
+	"github.com/qiaohao9/grpc/resolver"
 )
 
 const (

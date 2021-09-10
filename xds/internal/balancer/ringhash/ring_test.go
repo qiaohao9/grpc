@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	xxhash "github.com/cespare/xxhash/v2"
-	"google.golang.org/grpc/resolver"
+	"github.com/qiaohao9/grpc/resolver"
 )
 
 func testAddr(addr string, weight uint32) resolver.Address {

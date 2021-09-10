@@ -25,17 +25,17 @@ import (
 
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/xds/internal/balancer/balancergroup"
-	"google.golang.org/grpc/xds/internal/balancer/clusterimpl"
-	"google.golang.org/grpc/xds/internal/balancer/priority"
-	"google.golang.org/grpc/xds/internal/balancer/weightedtarget"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
-	"google.golang.org/grpc/xds/internal/xdsclient"
+	"github.com/qiaohao9/grpc/balancer"
+	"github.com/qiaohao9/grpc/connectivity"
+	internalserviceconfig "github.com/qiaohao9/grpc/internal/serviceconfig"
+	"github.com/qiaohao9/grpc/resolver"
+	"github.com/qiaohao9/grpc/xds/internal/balancer/balancergroup"
+	"github.com/qiaohao9/grpc/xds/internal/balancer/clusterimpl"
+	"github.com/qiaohao9/grpc/xds/internal/balancer/priority"
+	"github.com/qiaohao9/grpc/xds/internal/balancer/weightedtarget"
+	"github.com/qiaohao9/grpc/xds/internal/testutils"
+	"github.com/qiaohao9/grpc/xds/internal/testutils/fakeclient"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient"
 )
 
 var (

@@ -30,13 +30,13 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/xds"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/credentials/insecure"
+	"github.com/qiaohao9/grpc/internal/testutils"
+	"github.com/qiaohao9/grpc/status"
+	"github.com/qiaohao9/grpc/xds"
+	"github.com/qiaohao9/grpc/xds/internal/testutils/e2e"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
@@ -44,9 +44,9 @@ import (
 	v3routerpb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/router/v3"
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	testpb "google.golang.org/grpc/test/grpc_testing"
-	xdstestutils "google.golang.org/grpc/xds/internal/testutils"
+	xdscreds "github.com/qiaohao9/grpc/credentials/xds"
+	testpb "github.com/qiaohao9/grpc/test/grpc_testing"
+	xdstestutils "github.com/qiaohao9/grpc/xds/internal/testutils"
 )
 
 const (

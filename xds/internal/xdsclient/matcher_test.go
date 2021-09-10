@@ -22,11 +22,11 @@ import (
 	"context"
 	"testing"
 
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/internal/grpcutil"
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/internal/xds/matcher"
-	"google.golang.org/grpc/metadata"
+	"github.com/qiaohao9/grpc/internal/grpcrand"
+	"github.com/qiaohao9/grpc/internal/grpcutil"
+	iresolver "github.com/qiaohao9/grpc/internal/resolver"
+	"github.com/qiaohao9/grpc/internal/xds/matcher"
+	"github.com/qiaohao9/grpc/metadata"
 )
 
 func TestAndMatcherMatch(t *testing.T) {

@@ -33,20 +33,20 @@ import (
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/xds/matcher"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/grpc/xds/internal/xdsclient/load"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/internal/xds/matcher"
+	"github.com/qiaohao9/grpc/xds/internal/httpfilter"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient/load"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/version"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/internal/backoff"
+	"github.com/qiaohao9/grpc/internal/buffer"
+	"github.com/qiaohao9/grpc/internal/grpclog"
+	"github.com/qiaohao9/grpc/internal/grpcsync"
+	"github.com/qiaohao9/grpc/keepalive"
+	"github.com/qiaohao9/grpc/xds/internal"
+	"github.com/qiaohao9/grpc/xds/internal/version"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient/bootstrap"
 )
 
 var (

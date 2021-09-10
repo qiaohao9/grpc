@@ -30,18 +30,18 @@ import (
 	"time"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/google"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/googlecloud"
-	internalgrpclog "google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/internal/xds/env"
-	"google.golang.org/grpc/resolver"
-	_ "google.golang.org/grpc/xds" // To register xds resolvers and balancers.
-	"google.golang.org/grpc/xds/internal/version"
-	"google.golang.org/grpc/xds/internal/xdsclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/credentials/google"
+	"github.com/qiaohao9/grpc/grpclog"
+	"github.com/qiaohao9/grpc/internal/googlecloud"
+	internalgrpclog "github.com/qiaohao9/grpc/internal/grpclog"
+	"github.com/qiaohao9/grpc/internal/grpcrand"
+	"github.com/qiaohao9/grpc/internal/xds/env"
+	"github.com/qiaohao9/grpc/resolver"
+	_ "github.com/qiaohao9/grpc/xds" // To register xds resolvers and balancers.
+	"github.com/qiaohao9/grpc/xds/internal/version"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient/bootstrap"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 

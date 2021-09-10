@@ -23,13 +23,13 @@ import (
 	"errors"
 	"fmt"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/pretty"
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/xds/internal/xdsclient"
+	"github.com/qiaohao9/grpc/credentials"
+	"github.com/qiaohao9/grpc/internal/grpclog"
+	"github.com/qiaohao9/grpc/internal/grpcsync"
+	"github.com/qiaohao9/grpc/internal/pretty"
+	iresolver "github.com/qiaohao9/grpc/internal/resolver"
+	"github.com/qiaohao9/grpc/resolver"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient"
 )
 
 const xdsScheme = "xds"

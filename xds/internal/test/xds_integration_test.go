@@ -36,15 +36,15 @@ import (
 
 	"github.com/google/uuid"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/testdata"
-	"google.golang.org/grpc/xds"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	"github.com/qiaohao9/grpc/credentials"
+	"github.com/qiaohao9/grpc/internal/grpctest"
+	"github.com/qiaohao9/grpc/resolver"
+	"github.com/qiaohao9/grpc/testdata"
+	"github.com/qiaohao9/grpc/xds"
+	"github.com/qiaohao9/grpc/xds/internal/testutils/e2e"
 
-	xdsinternal "google.golang.org/grpc/internal/xds"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	xdsinternal "github.com/qiaohao9/grpc/internal/xds"
+	testpb "github.com/qiaohao9/grpc/test/grpc_testing"
 )
 
 const (

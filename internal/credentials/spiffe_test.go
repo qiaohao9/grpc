@@ -26,8 +26,8 @@ import (
 	"net/url"
 	"testing"
 
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/testdata"
+	"github.com/qiaohao9/grpc/internal/grpctest"
+	"github.com/qiaohao9/grpc/testdata"
 )
 
 const wantURI = "spiffe://foo.bar.com/client/workload/1"

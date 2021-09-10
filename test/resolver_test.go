@@ -26,16 +26,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/codes"
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/status"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/qiaohao9/grpc/codes"
+	iresolver "github.com/qiaohao9/grpc/internal/resolver"
+	"github.com/qiaohao9/grpc/internal/serviceconfig"
+	"github.com/qiaohao9/grpc/internal/stubserver"
+	"github.com/qiaohao9/grpc/internal/testutils"
+	"github.com/qiaohao9/grpc/metadata"
+	"github.com/qiaohao9/grpc/resolver"
+	"github.com/qiaohao9/grpc/resolver/manual"
+	"github.com/qiaohao9/grpc/status"
+	testpb "github.com/qiaohao9/grpc/test/grpc_testing"
 )
 
 type funcConfigSelector struct {

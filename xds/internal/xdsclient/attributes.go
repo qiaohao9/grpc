@@ -18,9 +18,9 @@
 package xdsclient
 
 import (
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/load"
+	"github.com/qiaohao9/grpc/resolver"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient/load"
 )
 
 type clientKeyType string

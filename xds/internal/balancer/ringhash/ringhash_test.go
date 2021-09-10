@@ -23,7 +23,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/xds/internal/testutils"
+	"github.com/qiaohao9/grpc/xds/internal/testutils"
 )
 
 var (

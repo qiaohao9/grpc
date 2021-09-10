@@ -27,10 +27,10 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/keepalive"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/qiaohao9/grpc/examples/features/proto/echo"
 )
 
 var port = flag.Int("port", 50052, "port number")

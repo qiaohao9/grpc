@@ -29,14 +29,14 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/internal/grpctest"
+	"github.com/qiaohao9/grpc/metadata"
+	"github.com/qiaohao9/grpc/stats"
+	"github.com/qiaohao9/grpc/status"
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/qiaohao9/grpc/interop/grpc_testing"
+	testpb "github.com/qiaohao9/grpc/interop/grpc_testing"
 )
 
 const defaultTestTimeout = 10 * time.Second

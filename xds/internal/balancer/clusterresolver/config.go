@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"strings"
 
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/serviceconfig"
+	internalserviceconfig "github.com/qiaohao9/grpc/internal/serviceconfig"
+	"github.com/qiaohao9/grpc/serviceconfig"
 )
 
 // DiscoveryMechanismType is the type of discovery mechanism.

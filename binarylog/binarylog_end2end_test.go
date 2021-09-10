@@ -29,17 +29,17 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/binarylog"
-	"google.golang.org/grpc/grpclog"
-	iblog "google.golang.org/grpc/internal/binarylog"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/binarylog"
+	"github.com/qiaohao9/grpc/grpclog"
+	iblog "github.com/qiaohao9/grpc/internal/binarylog"
+	"github.com/qiaohao9/grpc/internal/grpctest"
+	"github.com/qiaohao9/grpc/metadata"
+	"github.com/qiaohao9/grpc/status"
 
-	pb "google.golang.org/grpc/binarylog/grpc_binarylog_v1"
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	pb "github.com/qiaohao9/grpc/binarylog/grpc_binarylog_v1"
+	testgrpc "github.com/qiaohao9/grpc/interop/grpc_testing"
+	testpb "github.com/qiaohao9/grpc/interop/grpc_testing"
 )
 
 var grpclogLogger = grpclog.Component("binarylog")

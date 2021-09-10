@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	xdsinternal "google.golang.org/grpc/internal/credentials/xds"
-	"google.golang.org/grpc/xds/internal/xdsclient"
+	"github.com/qiaohao9/grpc/credentials/tls/certprovider"
+	xdsinternal "github.com/qiaohao9/grpc/internal/credentials/xds"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient"
 )
 
 // connWrapper is a thin wrapper around a net.Conn returned by Accept(). It

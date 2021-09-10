@@ -22,8 +22,8 @@ import (
 	"errors"
 	"fmt"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
+	"github.com/qiaohao9/grpc/balancer"
+	"github.com/qiaohao9/grpc/connectivity"
 )
 
 // PickFirstBalancerName is the name of the pick_first balancer.

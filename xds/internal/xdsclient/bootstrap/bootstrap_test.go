@@ -31,13 +31,13 @@ import (
 	structpb "github.com/golang/protobuf/ptypes/struct"
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/google"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/xds/env"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/credentials/google"
+	"github.com/qiaohao9/grpc/credentials/insecure"
+	"github.com/qiaohao9/grpc/credentials/tls/certprovider"
+	"github.com/qiaohao9/grpc/internal"
+	"github.com/qiaohao9/grpc/internal/xds/env"
+	"github.com/qiaohao9/grpc/xds/internal/version"
 )
 
 var (

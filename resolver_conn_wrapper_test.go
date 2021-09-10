@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/status"
+	"github.com/qiaohao9/grpc/balancer"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/internal/balancer/stub"
+	"github.com/qiaohao9/grpc/resolver"
+	"github.com/qiaohao9/grpc/resolver/manual"
+	"github.com/qiaohao9/grpc/serviceconfig"
+	"github.com/qiaohao9/grpc/status"
 )
 
 // The target string with unknown scheme should be kept unchanged and passed to

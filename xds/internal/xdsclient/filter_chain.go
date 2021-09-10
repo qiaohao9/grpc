@@ -28,9 +28,9 @@ import (
 	v3tlspb "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/qiaohao9/grpc/internal/resolver"
+	"github.com/qiaohao9/grpc/xds/internal/httpfilter"
+	"github.com/qiaohao9/grpc/xds/internal/version"
 )
 
 const (

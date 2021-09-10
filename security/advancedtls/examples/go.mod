@@ -1,15 +1,15 @@
-module google.golang.org/grpc/security/advancedtls/examples
+module github.com/qiaohao9/grpc/security/advancedtls/examples
 
 go 1.15
 
 require (
-	google.golang.org/grpc v1.38.0
-	google.golang.org/grpc/examples v0.0.0-20201112215255-90f1b3ee835b
-	google.golang.org/grpc/security/advancedtls v0.0.0-20201112215255-90f1b3ee835b
+	github.com/qiaohao9/grpc v1.38.0
+	github.com/qiaohao9/grpc/examples v0.0.0-20201112215255-90f1b3ee835b
+	github.com/qiaohao9/grpc/security/advancedtls v0.0.0-20201112215255-90f1b3ee835b
 )
 
-replace google.golang.org/grpc => ../../..
+replace github.com/qiaohao9/grpc => ../../..
 
-replace google.golang.org/grpc/examples => ../../../examples
+replace github.com/qiaohao9/grpc/examples => ../../../examples
 
-replace google.golang.org/grpc/security/advancedtls => ../
+replace github.com/qiaohao9/grpc/security/advancedtls => ../

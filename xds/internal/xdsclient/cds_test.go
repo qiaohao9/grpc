@@ -33,10 +33,10 @@ import (
 	anypb "github.com/golang/protobuf/ptypes/any"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/internal/xds/env"
-	"google.golang.org/grpc/internal/xds/matcher"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/qiaohao9/grpc/internal/testutils"
+	"github.com/qiaohao9/grpc/internal/xds/env"
+	"github.com/qiaohao9/grpc/internal/xds/matcher"
+	"github.com/qiaohao9/grpc/xds/internal/version"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 )
 

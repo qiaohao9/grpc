@@ -19,10 +19,10 @@ package authz
 import (
 	"context"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/xds/rbac"
-	"google.golang.org/grpc/status"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/internal/xds/rbac"
+	"github.com/qiaohao9/grpc/status"
 )
 
 // StaticInterceptor contains engines used to make authorization decisions. It

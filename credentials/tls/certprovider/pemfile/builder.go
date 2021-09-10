@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"time"
 
-	"google.golang.org/grpc/credentials/tls/certprovider"
+	"github.com/qiaohao9/grpc/credentials/tls/certprovider"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/types/known/durationpb"
 )

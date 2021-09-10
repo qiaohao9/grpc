@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	xdsenv "google.golang.org/grpc/internal/xds/env"
+	xdsenv "github.com/qiaohao9/grpc/internal/xds/env"
 )
 
 const (

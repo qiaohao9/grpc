@@ -21,7 +21,7 @@ package authz_test
 import (
 	"testing"
 
-	"google.golang.org/grpc/authz"
+	"github.com/qiaohao9/grpc/authz"
 )
 
 func TestNewStatic(t *testing.T) {

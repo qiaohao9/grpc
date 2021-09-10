@@ -27,19 +27,19 @@ import (
 	"net"
 	"os"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/admin"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/health"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/reflection"
-	"google.golang.org/grpc/xds"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/admin"
+	"github.com/qiaohao9/grpc/credentials/insecure"
+	"github.com/qiaohao9/grpc/grpclog"
+	"github.com/qiaohao9/grpc/health"
+	"github.com/qiaohao9/grpc/metadata"
+	"github.com/qiaohao9/grpc/reflection"
+	"github.com/qiaohao9/grpc/xds"
 
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	xdscreds "github.com/qiaohao9/grpc/credentials/xds"
+	healthpb "github.com/qiaohao9/grpc/health/grpc_health_v1"
+	testgrpc "github.com/qiaohao9/grpc/interop/grpc_testing"
+	testpb "github.com/qiaohao9/grpc/interop/grpc_testing"
 )
 
 var (

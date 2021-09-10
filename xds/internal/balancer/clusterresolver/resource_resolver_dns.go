@@ -21,8 +21,8 @@ package clusterresolver
 import (
 	"fmt"
 
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/qiaohao9/grpc/resolver"
+	"github.com/qiaohao9/grpc/serviceconfig"
 )
 
 var (

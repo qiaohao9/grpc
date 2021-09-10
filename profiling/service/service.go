@@ -32,10 +32,10 @@ import (
 	"errors"
 	"sync"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/profiling"
-	ppb "google.golang.org/grpc/profiling/proto"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/grpclog"
+	"github.com/qiaohao9/grpc/internal/profiling"
+	ppb "github.com/qiaohao9/grpc/profiling/proto"
 )
 
 var logger = grpclog.Component("profiling")

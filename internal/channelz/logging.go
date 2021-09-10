@@ -21,7 +21,7 @@ package channelz
 import (
 	"fmt"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/qiaohao9/grpc/grpclog"
 )
 
 var logger = grpclog.Component("channelz")

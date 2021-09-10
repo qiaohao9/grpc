@@ -24,13 +24,13 @@ import (
 	"io"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/status"
+	"github.com/qiaohao9/grpc"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/connectivity"
+	healthpb "github.com/qiaohao9/grpc/health/grpc_health_v1"
+	"github.com/qiaohao9/grpc/internal"
+	"github.com/qiaohao9/grpc/internal/backoff"
+	"github.com/qiaohao9/grpc/status"
 )
 
 var (

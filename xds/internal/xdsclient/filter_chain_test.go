@@ -38,12 +38,12 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/grpc/xds/internal/httpfilter/router"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
-	"google.golang.org/grpc/xds/internal/version"
+	iresolver "github.com/qiaohao9/grpc/internal/resolver"
+	"github.com/qiaohao9/grpc/internal/testutils"
+	"github.com/qiaohao9/grpc/xds/internal/httpfilter"
+	"github.com/qiaohao9/grpc/xds/internal/httpfilter/router"
+	"github.com/qiaohao9/grpc/xds/internal/testutils/e2e"
+	"github.com/qiaohao9/grpc/xds/internal/version"
 )
 
 const (

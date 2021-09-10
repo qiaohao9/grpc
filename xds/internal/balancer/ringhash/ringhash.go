@@ -22,8 +22,8 @@ package ringhash
 import (
 	"sync"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
+	"github.com/qiaohao9/grpc/balancer"
+	"github.com/qiaohao9/grpc/connectivity"
 )
 
 // Name is the name of the ring_hash balancer.

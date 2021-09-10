@@ -34,14 +34,14 @@ import (
 	v3statusgrpc "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	v3statuspb "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/xds/internal/xdsclient"
+	"github.com/qiaohao9/grpc/codes"
+	"github.com/qiaohao9/grpc/grpclog"
+	"github.com/qiaohao9/grpc/status"
+	"github.com/qiaohao9/grpc/xds/internal/xdsclient"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	_ "google.golang.org/grpc/xds/internal/xdsclient/v2" // Register v2 xds_client.
-	_ "google.golang.org/grpc/xds/internal/xdsclient/v3" // Register v3 xds_client.
+	_ "github.com/qiaohao9/grpc/xds/internal/xdsclient/v2" // Register v2 xds_client.
+	_ "github.com/qiaohao9/grpc/xds/internal/xdsclient/v3" // Register v3 xds_client.
 )
 
 var (
