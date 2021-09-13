@@ -1056,7 +1056,7 @@ var file_grpc_binlog_v1_binarylog_proto_depIdxs = []int32{
 	0,  // [0:14] is the sub-list for field type_name
 }
 
-func init() { file_grpc_binlog_v1_binarylog_proto_init() }
+//func init() { file_grpc_binlog_v1_binarylog_proto_init() }
 func file_grpc_binlog_v1_binarylog_proto_init() {
 	if File_grpc_binlog_v1_binarylog_proto != nil {
 		return
